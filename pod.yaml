@@ -1,0 +1,12 @@
+apiVersion: v1 
+kind: Pod 
+metadata:
+  name: python-app
+  labels:
+    linguagem: python
+    tipo: backend
+
+spec: 
+  containers: 
+    - name: python-app
+      image: menossi/minicursokubernetes:app
